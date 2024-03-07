@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.C</title>
+
+    <!--font awsome cdn link-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!--css link-->
+    <link rel="stylesheet" href="chicks.css">
+
+    <!--bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--header-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+            <div class="container-fluid">
+
+                <a href="#" class="logo">
+                    <i class="fas-fa-untensils"></i>
+                    Mr.C
+                </a>
+
+                <i class="navbar-toggler fas fa-bar" data-bs-toggle="collapse" data-bs-target="#vvs" aria-controls="vvs" aria-expanded="false" aria-label="Toggle navigation" >
+                    <span class="navbar-toggler-icon"></span>
+                </i>
+
+                <div class="collapse navbar-collapse" id="vvs">
+                    <ul class="navbar-nav nav-underline mx-auto">      
+                        <li class="nav-item">
+                            <a href="#Home" class="active nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Dishes" class="nav-link">Dishes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#About" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Menu" class="nav-link">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Review" class="nav-link">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Order" class="nav-link">Order</a>
+                        </li>
+                    </ul>        
+            </div>
+
+            <div class="d-flex">
+                <i class="fas fa-search" id="search-icons"></i>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="login.html" class="fas fa-user"></a>
+            </div>
+
+        </nav>
+        
+    </header>
+
+    <!--search form-->
+
+    <!-- <form id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form> -->
+
+    <!--home-->
+
+    <section class="Home" id="Home">
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" class="bg-dark" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" class="bg-dark" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" class="bg-dark" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" class="bg-dark" aria-label="Slide 5"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-sm-block">
+                            <span>Our special dish</span>
+                            <h3>spicy noodles</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit soluta placeat doloribus</p>
+                            <a href="#" class="btn">Order Now</a>
+                            
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="4.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-sm-block">
+                            <span>Our special dish</span>
+                            <h3>Grill chicken</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit soluta placeat doloribus</p>
+                            <a href="#" class="btn">Order Now</a>
+                            
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <span>Our special dish</span>
+                        <h3>pizza</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit soluta placeat doloribus</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <span>Our special dish</span>
+                        <h3>ice-creams</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit soluta placeat doloribus</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="5.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <span>Our special dish</span>
+                        <h3>Mojito</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit soluta placeat doloribus</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+    <!--dishes-->
+
+    <section class="Dishes" id="Dishes">
+        <h3>Our Dishes</h3>
+        <h1>Popular dishes</h1>
+        <br>
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d1.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹120.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d2.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Vegi Burger</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹80.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d3.png" class="card-img-top" alt="non-veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken Popcorn</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>$100.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d4.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Samosa</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹29.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d5.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Panner Noodles</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹149.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d6.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Cup Cakes</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹19.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d7.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Staberry Shakes</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹180.00</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d8.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Choco truffel</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹80.00</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d9.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Mushroom Pizza</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹100.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d10.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Birthday cakes</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹500.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d11.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Choco Shakes</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹130.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d12.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">sandweg</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>$70.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d13.png" class="card-img-top" alt="non-veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken burger</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹140.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d14.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Mojito</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹150.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d15.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Donut</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹50.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d16.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Corn Pizza</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹120.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d17.png" class="card-img-top" alt="non-veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken 65</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹150.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d18.png" class="card-img-top" alt="non-veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Pron Noodles</h5>
+                        <p class="card-text">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        </p>
+                        <span>₹250.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </section>
+
+    <!--About -->
+
+    <section class="about" id="About">
+
+        <h3>About us</h3>
+        <h1>Why need to choose us?</h1>
+        <br>
+        <br>
+        <div class="row">
+            <div class="image">
+                <img class="img" src="Indian Foods.png" alt="about image">
+            </div>
+            <div class="content">
+                <h3>Best Food in the City</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempore labore odio deleniti voluptate enim nihil velit, laborum tenetur assumenda obcaecati amet distinctio maiores architecto consectetur illum quod perspiciatis neque.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, consequuntur? Voluptate dolorum veniam vitae iste itaque accusamus qui! Necessitatibus rerum eaque architecto a ratione similique illo fuga maxime sunt consectetur.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Free Shipping</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-rupee-sign"></i>
+                        <span>Easy and Quick payment</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 customer service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Menu-->
+
+    `<section class="menu" id="Menu">
+        <h3>Menu</h3>
+        <h1>Toda's Special</h1>
+        <br>
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="a1.jpg" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken lallipop</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹150.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="a2.jpg" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Shawarma</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹100.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="a3.jpg" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Waffels</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹60.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d13.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken burgger</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹150.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d7.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Staberry Shakes</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹120.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d2.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Veg Burgger</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹80.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d11.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Choco shakes</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹140.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d6.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Cup Cakes</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹30.00</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d16.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken Pizza</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹190.00</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d5.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Panner Noodles</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹120.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d15.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Donuts</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹40.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="d3.png" class="card-img-top" alt="veg">
+                    <div class="card-body">
+                        <h5 class="card-title">Cripsy Chicken</h5>
+                        <p class="card-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </p>
+                        <span>₹80.99</span>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Review-->
+
+    <section class="review" id="Review">
+        <h3 class="sub heading">Customer's Reviews</h3>
+        <h1 class="heading">what they say</h1>
+
+        <div class="review-slider">
+
+            <div class="wrapper">
+
+                <div class="slide">
+                    <u><i class="fas fa-quote-right"></i></u>
+                    <div class="user">
+                        <img class="image"src="user1.jpg" width="100px" height="100px" alt="user image">
+                        <div class="user-info">
+                            <h3>Rose</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quae, iusto necessitatibus ducimus suscipit consequatur magni nostrum esse, vero natus quasi nemo, recusandae qui. Cumque officiis quaerat quo cum aspernatur!</p>
+                </div>
+                <br>
+
+                <div class="slide">
+                    <u><i class="fas fa-quote-right"></i></u>
+                    <div class="user">
+                        <img class="image"src="user2.jpg" width="100px" height="100px" alt="user image">
+                        <div class="user-info">
+                            <h3>Antony</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quae, iusto necessitatibus ducimus suscipit consequatur magni nostrum esse, vero natus quasi nemo, recusandae qui. Cumque officiis quaerat quo cum aspernatur!</p>
+                </div>
+                <br>
+
+                <div class="slide">
+                    <u><i class="fas fa-quote-right"></i></u>
+                    <div class="user">
+                        <img class="image"src="user3.jpg" width="100px" height="100px" alt="user image">
+                        <div class="user-info">
+                            <h3>Jack</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quae, iusto necessitatibus ducimus suscipit consequatur magni nostrum esse, vero natus quasi nemo, recusandae qui. Cumque officiis quaerat quo cum aspernatur!</p>
+                </div>
+                <br>
+
+                <div class="slide">
+                    <u><i class="fas fa-quote-right"></i></u>
+                    <div class="user">
+                        <img class="image"src="user4.jpg" width="100px" height="100px" alt="user image">
+                        <div class="user-info">
+                            <h3>Tuna</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quae, iusto necessitatibus ducimus suscipit consequatur magni nostrum esse, vero natus quasi nemo, recusandae qui. Cumque officiis quaerat quo cum aspernatur!</p>
+                </div>
+                <br>
+
+                <div class="slide">
+                    <u><i class="fas fa-quote-right"></i></u>
+                    <div class="user">
+                        <img class="image"src="user5.jpg" width="100px" height="100px" alt="user image">
+                        <div class="user-info">
+                            <h3>jasmine</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quae, iusto necessitatibus ducimus suscipit consequatur magni nostrum esse, vero natus quasi nemo, recusandae qui. Cumque officiis quaerat quo cum aspernatur!</p>
+                </div>
+                <br>
+
+                <div class="slide">
+                    <u><i class="fas fa-quote-right"></i></u>
+                    <div class="user">
+                        <img class="image"src="user6.jpg" width="100px" height="100px" alt="user image">
+                        <div class="user-info">
+                            <h3>Raj</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quae, iusto necessitatibus ducimus suscipit consequatur magni nostrum esse, vero natus quasi nemo, recusandae qui. Cumque officiis quaerat quo cum aspernatur!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Order now-->
+
+    <section class="order" id="Order">
+        <h3 class="sub heading">Order Now</h3>
+        <h1 class="heading">free and fast</h1>
+
+        <form action="">
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Name</span>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="input">
+                    <span>Your Number</span>
+                    <input type="number" placeholder="Enter your phone number">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Order</span>
+                    <input type="text" placeholder="Enter your food name">
+                </div>
+                <div class="input">
+                    <span>Additional food</span>
+                    <input type="test" placeholder="Extra with food">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Order</span>
+                    <input type="text" placeholder="Enter your food name">
+                </div>
+                <div class="input">
+                    <span>Additional food</span>
+                    <input type="test" placeholder="Extra with food">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>For how many persons</span>
+                    <input type="number" placeholder="Order for how many persons">
+                </div>
+                <div class="input">
+                    <span>Date & Time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Address</span>
+                    <textarea name="" placeholder="Enter your address" id="" cols="30" rows="10">
+                    </textarea>
+                </div>
+                <div class="input">
+                    <span>Your Message</span>
+                    <textarea name="" placeholder="Enter your message" id="" cols="30" rows="10">
+                    </textarea>
+                </div>
+            </div>
+
+            <center><input type="submit" value="order now" class="btn"></center>
+            <br>
+            <br>
+        </form>
+    </section>
+
+    <!--footer-->
+
+    <section class="footer">
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+
+            <div class="col">
+                <h3>location</h3>
+                <a href="#">Vayalur</a>
+                <a href="#">T.v.Kovil</a>
+                <a href="#">Cantonment</a>
+                <a href="#">Karumandabam</a>
+            </div>
+
+            <div class="col">
+                <h3>Quick link</h3>
+                <a href="#Home">Home</a>
+                <a href="#Dishes">Dishes</a>
+                <a href="#About">About</a>
+                <a href="#Menu">Menu</a>
+                <a href="#Review">Review</a>
+                <a href="#Order">Order</a>
+            </div>
+
+            <div class="col">
+                <h3>Contact Info</h3>
+                <a href="#">+91 7010804080</a>
+                <a href="#">+91 9965184683</a>
+                <a href="#">kamalnath678@gmail.com</a>
+                <a href="#">kamalnathsathiyamoorthi@gmail.com</a>
+                <a href="#">Trichy,Tamilnadu,India-620102</a>
+            </div>
+
+            <div class="col">
+                <h3>Follow us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+
+        </div>
+
+        <div class="credit">copyright @ 2024 by <span>Mr.Kamalnath</span></div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <!--javascript-->
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
